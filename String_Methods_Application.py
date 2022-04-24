@@ -22,13 +22,13 @@ class string_methods_application:
     #Author Venkata Vamsi Krishna Teeparthi
     #Returns true if all the letters are in lowercase
     def islower_string(my_string):
-        return 0
+        return my_string.islower()
         
 
     #Converts all the uppercase to lowercase
     def casefold_string(my_string):
-        return 0
+        return my_string.casefold()
 
     #Returns true if the end value is a specified value
     def endswith_string(my_string):
-        return 0
+        return my_string.endswith(".")
