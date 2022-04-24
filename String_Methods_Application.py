@@ -17,8 +17,6 @@ class string_methods_application:
     def replace_string(my_string):
         return my_string.replace("software", "unit")
         
-    
-    #code with wrong functionality
     #Author Venkata Vamsi Krishna Teeparthi
     #Returns true if all the letters are in lowercase
     def islower_string(my_string):
@@ -32,3 +30,5 @@ class string_methods_application:
     #Returns true if the end value is a specified value
     def endswith_string(my_string):
         return my_string.endswith(".")
+    
+    
