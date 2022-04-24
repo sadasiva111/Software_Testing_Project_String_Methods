@@ -7,15 +7,28 @@ class string_methods_application:
     def capitalize_string(my_string):
         return my_string.capitalize()
 
-    #Author : Boya Sada Siva Kuma
+    #Author : Boya Sada Siva Kumar
     #Returns true if the start value is specified value
     def startswith_string(my_string):
         return my_string.startswith("Software")
 
-    #Author : Boya Sada Siva Kuma
+    #Author : Boya Sada Siva Kumar
     #Replaces the old string with new string
     def replace_string(my_string):
         return my_string.replace("software", "unit")
         
+    
+    #code with wrong functionality
+    #Author Venkata Vamsi Krishna Teeparthi
+    #Returns true if all the letters are in lowercase
+    def islower_string(my_string):
+        return 0
         
-        
+
+    #Converts all the uppercase to lowercase
+    def casefold_string(my_string):
+        return 0
+
+    #Returns true if the end value is a specified value
+    def endswith_string(my_string):
+        return 0
