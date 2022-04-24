@@ -24,3 +24,25 @@ class TestStringMethods(unittest.TestCase):
     def test_replace_string(self):
         output = string_methods_application.replace_string("software testing")
         self.assertEqual(output, "unit testing")
+    
+    
+    #Above code is cloned
+    #Unit test without functionality
+    #Author Venkata Vamsi Krishna Teeparthi
+    #Unit Test of Task_4
+    #Test passes if all the letters are in lowercase
+    def test_islower_string(self):
+        output = string_methods_application.islower_string("software testing")
+        self.assertTrue(output)
+
+    #Unit Test of Task_5
+    #Test passes if it converts all the uppercase to lowercase
+    def test_casefold_string(self):
+        output = string_methods_application.casefold_string("SOFTWARE TESTING.")
+        self.assertEqual(output, "software testing.")
+    
+    #Unit Test of Task_6
+    #Test passes if it returns true when the end value is specified value
+    def test_endswith_string(self):
+        output = string_methods_application.endswith_string("Software Testing.")
+        self.assertTrue(output, ".")
