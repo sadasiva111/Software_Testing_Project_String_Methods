@@ -30,5 +30,19 @@ class string_methods_application:
     #Returns true if the end value is a specified value
     def endswith_string(my_string):
         return my_string.endswith(".")
+
+    #code with wrong functionality
+    #Author Sree Chandan Kamireddi
+    #Converts string into title form
+    def title_string(my_string):
+        return 0
+
+    #Counts and returns the specific value in a given string
+    def count_string(my_string):
+        return 0
+
+    #Converts string into a encoded form
+    def encode_string(my_string):
+        return 0
     
     
