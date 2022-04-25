@@ -31,18 +31,18 @@ class string_methods_application:
     def endswith_string(my_string):
         return my_string.endswith(".")
 
-    #code with wrong functionality
+    #code with right functionality
     #Author Sree Chandan Kamireddi
     #Converts string into title form
     def title_string(my_string):
-        return 0
+        return my_string.title()
 
     #Counts and returns the specific value in a given string
     def count_string(my_string):
-        return 0
+        return my_string.count("Software")
 
     #Converts string into a encoded form
     def encode_string(my_string):
-        return 0
+        return my_string.encode()
     
     
