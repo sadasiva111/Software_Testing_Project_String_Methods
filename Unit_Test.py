@@ -43,23 +43,3 @@ class TestStringMethods(unittest.TestCase):
     def test_endswith_string(self):
         output = string_methods_application.endswith_string("Software Testing.")
         self.assertTrue(output, ".")
-
-    #Unit test without functionality
-    #Author Sree Chandan Kamireddi
-    #Unit Test of Task_7
-    #Test passes if it counts and returns the specific value in a given string
-    def test_count_string(self):
-        output = string_methods_application.count_string("Software testing")
-        self.assertEqual(output, 1)
-    
-    #Unit Test of Task_8
-    #Test passes when string is converted into a title form.
-    def test_title_string(self):
-        output = string_methods_application.title_string("software testing")
-        self.assertEqual(output, "Software Testing")
-
-    #Unit Test of Task_9
-    #Test case passes when the string is encoded.
-    def test_encode_string(self):
-        output = string_methods_application.encode_string("Software")
-        self.assertEqual(output,b'Software')
